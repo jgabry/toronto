@@ -2,9 +2,9 @@
 
 set.seed(223)
 
-lambda <- 5 # poisson parameter
+lambda <- 4.8 # poisson parameter
 theta <- 0.2 # Pr(y = 0)
-U <- 7 # upper truncation point
+U <- 6 # upper truncation point
 N <- 500 # sample size 
 
 y <- rep(NA, N)
